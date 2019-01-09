@@ -28,7 +28,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # GraphQL
 gem 'graphql', '~> 1.8.11'
 gem 'graphiql-rails', '~> 1.4.11'
-gem 'graphql-auth', github: 'o2web/graphql-auth', branch: '9-remember-me-feature'
+gem 'graphql-auth', '~> 0.2.0'
 
 # Auth & permissions
 gem 'devise', '~> 4.5.0'

@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/o2web/graphql-auth.git
-  revision: d0925b44501ea9a7207b7207529882964b4418ab
-  branch: 9-remember-me-feature
-  specs:
-    graphql-auth (0.1.3)
-      devise (~> 4.4)
-      graphql (~> 1.8)
-      jwt (~> 1.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,6 +70,10 @@ GEM
       railties
       sprockets-rails
     graphql (1.8.13)
+    graphql-auth (0.2.0)
+      devise (~> 4.4)
+      graphql (~> 1.8)
+      jwt (~> 1.5)
     i18n (1.5.1)
       concurrent-ruby (~> 1.0)
     jwt (1.5.6)
@@ -179,7 +173,7 @@ DEPENDENCIES
   dotenv-rails
   graphiql-rails (~> 1.4.11)
   graphql (~> 1.8.11)
-  graphql-auth!
+  graphql-auth (~> 0.2.0)
   letter_opener
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
